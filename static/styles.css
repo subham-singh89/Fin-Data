@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-top: 50px;
+  text-align: center;
+}
+
+label {
+  font-size: 20px;
+}
+
+input[type="number"] {
+  width: 100px;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+body{
+  background-color: black;
+  color: chocolate;
+}
+p {
+  text-align: center;
+}
+ul {
+  text-align: center;
+}
