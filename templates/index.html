@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate Data</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <h1>Generate Data for ML Model</h1>
+    <form method="post" action="/generate">
+        <label for="num_points">Number of Data Points:</label>
+        <input type="number" id="num_points" name="num_points" min="1" required>
+        <button type="submit">Generate</button>
+    </form>
+</body>
+</html>
