@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body >
+    <h1>Download Generated Data</h1>
+    <p>Click the links below to download the generated CSV files:</p>
+    <ul>
+        <li><a href="{{ url_for('static', filename='features_matrix.csv') }}" download>Download Features</a></li>
+        <li><a href="{{ url_for('static', filename='targets_matrix.csv') }}" download>Download Targets</a></li>
+    </ul>
+</body>
+</html>
